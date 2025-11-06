@@ -9,7 +9,7 @@ import androidx.navigation.compose.rememberNavController
 import com.example.cantus.ui.AppCapabilitiesScreen
 import com.example.cantus.ui.LandingScreen
 
-enum class CantusScreen() {
+enum class CantusScreens() {
     Landing,
     AppCapabilities
 }
@@ -21,18 +21,18 @@ fun CantusApp (
 ) {
     NavHost(
         navController = navController,
-        startDestination = CantusScreen.Landing.name,
+        startDestination = CantusScreens.Landing.name,
         modifier = modifier
     ) {
-        composable(route = CantusScreen.Landing.name) {
+        composable(route = CantusScreens.Landing.name) {
             LandingScreen(
                 onGetStartedButtonClicked = {
-                    navController.navigate(CantusScreen.AppCapabilities.name)
+                    navController.navigate(CantusScreens.AppCapabilities.name)
                 },
                 modifier = Modifier
             )
         }
-        composable(route = CantusScreen.AppCapabilities.name) {
+        composable(route = CantusScreens.AppCapabilities.name) {
             AppCapabilitiesScreen(
                 onGetStartedButtonClicked = {
                     navController.popBackStack()
