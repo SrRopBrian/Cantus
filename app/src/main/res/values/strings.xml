@@ -4,5 +4,17 @@
     <string name="cantus_logo_dark">Cantus Logo - Dark</string>
     <string name="cantus_tagline">Song Management for Music Directors</string>
     <string name="cantus_description">Track Psalms, Hymns and Spiritual songs, plan for worship services and avoid repetition to keep your song repertoire fresh.</string>
-    <string name="get_started">Get Started</string>
+    <string name="get_started_button">Get Started</string>
+    <string name="welcome_to_cantus">Welcome to Cantus</string>
+    <string name="welcome_description">Helping your congregation sing with purpose and thoughtfully prepare for worship in song.</string>
+    <string name="song_inventory">Song Inventory</string>
+    <string name="song_inventory_description">Keep your entire song library in one place. Add, edit and explore songs with ease.</string>
+    <string name="category_stewardship">Category Stewardship</string>
+    <string name="category_stewardship_description">Organize songs by season, language, learning stage, and congregational familiarity.</string>
+    <string name="singing_insights">Singing Insights</string>
+    <string name="singing_insights_description">Track when each hymn was last sung, how often it’s used and view its performance frequency.</string>
+    <string name="service_planning">Service Planning</string>
+    <string name="service_planning_description">Create and save song sets for specific Sundays or events.</string>
+    <string name="singing_history">Singing History</string>
+    <string name="singing_history_description">Revisit past service song lists and see what was sung when.</string>
 </resources>

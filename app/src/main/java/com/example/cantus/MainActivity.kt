@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
+import com.example.cantus.ui.AppCapabilitiesScreen
 import com.example.cantus.ui.LandingScreen
 import com.example.cantus.ui.theme.CantusTheme
 
@@ -20,8 +21,8 @@ class MainActivity : ComponentActivity() {
                 Scaffold(
                     modifier = Modifier.fillMaxSize()
                 ) { paddingValues ->
-                    LandingScreen(
-                        modifier = Modifier.padding(paddingValues)
+                    CantusApp(
+                        modifier =  Modifier.padding(paddingValues)
                     )
                 }
             }
