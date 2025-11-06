@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Cantus</string>
+    <string name="cantus_logo_light">Cantus Logo - Light</string>
+    <string name="cantus_logo_dark">Cantus Logo - Dark</string>
+    <string name="cantus_tagline">Song Management for Music Directors</string>
+    <string name="cantus_description">Track Psalms, Hymns and Spiritual songs, plan for worship services and avoid repetition to keep your song repertoire fresh.</string>
+    <string name="get_started">Get Started</string>
 </resources>
