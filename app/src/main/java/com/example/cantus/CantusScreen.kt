@@ -30,7 +30,7 @@ fun CantusTopAppBar(
     navigateUp: () -> Unit,
     modifier: Modifier = Modifier
 ) {
-    TopAppBar(
+    /* TopAppBar(
         title = { Text(stringResource(currentScreen.title))},
         colors = TopAppBarDefaults.topAppBarColors(
             containerColor = MaterialTheme.colorScheme.primaryContainer
@@ -45,7 +45,7 @@ fun CantusTopAppBar(
                 }
             }
         }
-    )
+    ) */
 }
 
 @Composable
